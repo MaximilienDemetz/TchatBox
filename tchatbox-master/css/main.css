@@ -1,0 +1,220 @@
+.form-access {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    padding: 2%;
+    margin-top: 10%;
+}
+.form-access button, .form-access input{
+    width: 50%;
+    margin: auto;
+}
+#rejoindre {
+    color: #51bcd5;
+}
+#rejoindre:hover{
+    text-decoration: none;
+}
+button {
+    margin-bottom: 5% !important;
+}
+h1 {
+    color: #51bcd5;
+}
+h3{
+    text-align:center;
+    color:white;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+a {
+    color: #51bcd5;
+    
+    text-decoration: none;
+}
+.hide {
+    display: none;
+}
+#messages {
+    clear:both;
+    display:block;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 0 5px black;
+    margin-bottom: 3%;
+    overflow: auto;
+}
+.textdroite{
+    clear:both;
+    border: 1px solid #666;
+    background: #666;
+    border-radius:4px;
+    float:right;
+    color:white;
+    padding: 15px;
+    margin:0px;
+   
+   
+    margin-right: 2em;
+}
+.droite{
+    clear:both;
+    float:right;
+}
+.textgauche{
+    float:left;
+    border: 1px solid #51bcd5;
+    background:#51bcd5;
+    color:white;
+    padding: 15px;
+    clear:both;
+    border-radius:4px;
+    margin:0px;
+    margin-left: 2em;
+}
+.gauche{
+    clear:both;
+    margin-top: 0px;
+    margin-bottom: 7em;
+    margin-left: 0.5em;
+}
+.droite{
+    margin-top: 0px;
+    margin-bottom: 7em;
+    margin-right: 0.5em;
+}
+.form-access input{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+.form-access button{
+   background:  #51bcd5;
+   color:white;
+   border:0px;
+   padding: 6px;
+   border-radius: 5px;
+}
+.form-access button:hover{
+    box-shadow: 1px 1px 5px #035163;
+}
+#inscription:hover{
+    text-decoration: none; 
+}
+.form-access{
+    box-shadow: 0 0 15px black;
+}
+#success{
+    text-align: center;
+    margin-top: 2em;
+    font-size: 50px;
+    color:#51bcd5;
+    text-shadow: 2px 2px 5px #666;
+}
+#errorMessage{
+    color:rgba(219, 7, 7, 0.596);
+}
+#fail{
+    background: rgba(192, 109, 109, 0.712);
+    color:rgba(0, 0, 0, 0.815);
+    border:2px solid rgb(184, 10, 10);
+    width: 50%;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.chtat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+    margin-left: 5em;
+}
+.chtat #messages{
+    width: 50%;
+    margin-right:2%;
+    background: rgba(172, 170, 170, 0.411);
+}
+.textMessage{
+    width: 60%;
+    height: 60%;
+}
+form .envoimessage{
+   margin-top: 2%;
+   margin-left: 20%;
+}
+.envoimessage{
+    background:  #51bcd5;
+   color:white;
+   border:0px;
+   padding: 6px;
+   border-radius: 5px;
+}
+.envoimessage:hover{
+    box-shadow: 1px 1px 5px #035163;
+}
+body{
+    background: rgb(223, 220, 220);
+}
+form{
+    background: white;
+}
+.formMessage{
+    background: rgb(223, 220, 220);
+}
+.doc{
+    display: flex;
+    justify-content: space-around;
+}
+.participants h2{
+    color:#666;
+    border:2px groove rgba(172, 170, 170, 0.411);
+    padding: 4px;
+    background: #51bcd5;
+    margin-top: 0;
+}
+.discussions h2{
+    color:#666;
+    border:2px groove rgba(172, 170, 170, 0.411);
+    padding: 4px;
+    background: #51bcd5;
+    margin-top: 0;
+}
+.discussions{
+    color:white;
+    border:2px groove rgba(172, 170, 170, 0.411);
+    padding: 4px;
+    background: #666;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.participants{
+    color:white;
+    border:2px groove rgba(172, 170, 170, 0.411);
+    padding: 4px;
+    background: #666;
+    padding: 15px;
+    border-radius: 15px;
+}
+#newDiscussion{
+    margin-top:2%;
+    background:  #51bcd5;
+    color:white;
+    border:0px;
+    padding: 6px;
+    border-radius: 5px;
+}
+#salons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.salle{
+    color:white;
+}
